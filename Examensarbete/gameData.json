@@ -1,0 +1,129 @@
+{
+  "monsterLists": [
+    [
+      {
+        "namn": "Minccino",
+        "hp": 10,
+        "attacker": [{"namn": "Tackle", "damage": 5}],
+        "bild": "bilder/Minccino.png"
+      },
+      {
+        "namn": "Charmander",
+        "hp": 20,
+        "attacker": [{"namn": "Flame", "damage": 5}],
+        "bild": "bilder/Charmander.png"
+      },
+      {
+        "namn": "Squirtle",
+        "hp": 20,
+        "attacker": [{"namn": "Waterbubble", "damage": 5}],
+        "bild": "bilder/Squirtle.png"
+      },
+      {
+        "namn": "Psyduck",
+        "hp": 20,
+        "attacker": [{"namn": "Confusion", "damage": 5}],
+        "bild": "bilder/Psyduck.png"
+      }
+    ],
+    [
+      {
+        "namn": "Arbok",
+        "hp": 30,
+        "attacker": [{"namn": "Poison Sting", "damage": 10}],
+        "bild": "bilder/Arbok.png"
+      },
+      {
+        "namn": "Ninetales",
+        "hp": 40,
+        "attacker": [{"namn": "Fireball", "damage": 10}],
+        "bild": "bilder/Ninetales.png"
+      },
+      {
+        "namn": "Gengar",
+        "hp": 40,
+        "attacker": [{"namn": "Psychic", "damage": 10}],
+        "bild": "bilder/Gengar.png"
+      }
+    ],
+    [
+      {
+        "namn": "Nidoking",
+        "hp": 60,
+        "attacker": [{"namn": "Brute Force", "damage": 15}],
+        "bild": "bilder/Nidoking.png"
+      },
+      {
+        "namn": "Blastoise",
+        "hp": 75,
+        "attacker": [{"namn": "Water Gun", "damage": 15}],
+        "bild": "bilder/Blastoise.png"
+      }
+    ],
+    [
+      {
+        "namn": "Charizard",
+        "hp": 80,
+        "attacker": [{"namn": "Fire Breath", "damage": 15}],
+        "bild": "bilder/Charizard.png"
+      },
+      {
+        "namn": "Zapdos",
+        "hp": 80,
+        "attacker": [{"namn": "Thunder", "damage": 20}],
+        "bild": "bilder/Zapdos.png"
+      }
+    ],
+    [
+      {
+        "namn": "Mega Metapod",
+        "hp": 100,
+        "attacker": [{"namn": "Super Harden", "damage": 0}],
+        "bild": "bilder/Metapod.png"
+      }
+    ]
+  ],
+  "bosses": [
+    {
+      "namn": "Big Boss Raichu",
+      "hp": 50,
+      "attacker": [{"namn": "Scratch", "damage": 20, "uses":8, "maxUses":8}, {"namn": "Tail Slash", "damage": 25, "uses": 3, "maxUses":3}, {"namn": "Thunder", "damage": 35, "uses": 2, "maxUses": 2}, {"namn": "Tackle", "damage": 15, "uses": 5, "maxUses": 5}],
+      "bild": "bilder/Raichu.png"
+    },
+    {
+      "namn": "Raging Gyarados",
+      "hp": 70,
+      "attacker": [{"namn": "Hydro Pump", "damage": 45, "uses":2, "maxUses":2}, {"namn": "Bite", "damage": 30, "uses":5, "maxUses":5}, {"namn": "Surf", "damage": 40, "uses": 3, "maxUses": 3}, {"namn": "Dragon Rage", "damage": 35, "uses": 5, "maxUses": 5}],
+      "bild": "bilder/Gyarados.png"
+    },
+    {
+      "namn": "Ancient Golem",
+      "hp": 90,
+      "attacker": [{"namn": "Smash", "damage": 65, "uses":2, "maxUses":2}, {"namn": "Rock Throw", "damage": 50, "uses":5, "maxUses":5}, {"namn": "Rumble", "damage": 30, "uses": 10, "maxUses": 10}, {"namn": "Tackle", "damage": 20, "uses": 10, "maxUses": 10}],
+      "bild": "bilder/Golem.png"
+    },
+    {
+      "namn": "Shadow Mewtwo",
+      "hp": 130,
+      "attacker": [{"namn": "Dark Pulse", "damage":85 , "uses":2, "maxUses":2}, {"namn": "Fly", "damage": 70, "uses":3, "maxUses":3}, {"namn": "Slam", "damage": 40, "uses": 5, "maxUses": 5}, {"namn": "Rage", "damage": 20, "uses": 10, "maxUses": 10}],
+      "bild": "bilder/Mewtwo.png"
+    },
+    {
+      "namn": "Arceus, The Creator",
+      "hp": 170,
+      "attacker": [{"namn": "Judgment", "damage": 0}, {"namn": "Omni Slash", "damage": 130}],
+      "bild": "bilder/Arceus.png"
+    }
+  ],
+  "startPokemon": {
+    "namn": "Pikachu",
+    "hp": 40,
+    "originalHp": 40,
+    "attacker": [
+      {"namn": "Shock", "damage": 10, "uses": 10, "maxUses": 10},
+      {"namn": "Tackle", "damage": 15, "uses": 5, "maxUses": 5},
+      {"namn": "Slash", "damage": 25, "uses": 2, "maxUses": 2}
+    ],
+    "bild": "bilder/Pikachu.png"
+  }
+}
